@@ -11,7 +11,7 @@ function Card(props) {
 
   return (
     <div className="card">
-        <img src={data.poster} alt={data.movie_name} />
+        <img onClick={handleClick} src={data.poster} alt={data.movie_name} />
         <h1 onClick={handleClick} >{data.movie_name}</h1>
     </div>
   )

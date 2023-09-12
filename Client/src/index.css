@@ -31,6 +31,7 @@ body{
   background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url("../src/assets/MarvelWallpaper.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+  overflow: hidden;
 }
 
 body::-webkit-scrollbar {
