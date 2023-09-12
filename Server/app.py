@@ -15,7 +15,7 @@ def get_all_movies():
 
 @app.route('/top/', methods=['GET'])
 def top_movies():
-    return ["No Substring Provided"]
+    return ["Searching For Movies!!"]
 
 @app.route('/top/<substring>', methods=['GET'])
 def get_top_matches(substring):
@@ -23,7 +23,7 @@ def get_top_matches(substring):
 
 @app.route('/search/', methods=['GET'])
 def search_none():
-    return ["No movie Provided"]
+    return ["No Movie Provided"]
 
 @app.route('/search/<movie>')
 def search(movie):
