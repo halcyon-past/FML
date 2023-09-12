@@ -1,0 +1,40 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to top, #271538aa 50%, transparent)
+}
+
+.footer p{
+    color: var(--text);
+    font-size: 1.2rem;
+    font-weight: 500;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.footer a{
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    filter: drop-shadow(0 0 5px var(--secondary));
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.footer svg{
+    height: 30px;
+    width: 30px;
+    fill: white;
+    margin: 0 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer svg:hover{
+    fill: var(--accent);
+    cursor: pointer;
+}

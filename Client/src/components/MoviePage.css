@@ -44,19 +44,20 @@
     top:0;
     left:0;
     height: 100%;
-    width: calc(80% - 100px);
+    width: calc(100% - 100px);
     padding:0 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     cursor: pointer;
-    background-image: linear-gradient(to right, #000000dd 40%, transparent);
+    background-image: linear-gradient(to right, #000000dd 40%, #00000022);
 }
 
 .about p{
     text-align: left;
     overflow: scroll;
+    width: 70%;
 }
 
 .about p::-webkit-scrollbar{
@@ -68,7 +69,7 @@
 }
 
 @media screen and (max-width: 800px){
-    .about .cover{
-        width: calc(100% - 100px);
+    .about p{
+        width: 100%;
     }
 }

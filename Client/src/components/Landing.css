@@ -1,13 +1,10 @@
 .landing{
-    height: calc(100vh - 60px);
+    height: calc(85vh - 160px);
     width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url("../assets/MarvelWallpaper.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;*/
     padding-bottom: 100px;
 }
 
