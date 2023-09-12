@@ -26,6 +26,7 @@
     top:20px;
     height: 30px;
     width: 30px;
+    z-index: 4;
 }
 
 .about .fit svg:hover{
@@ -64,4 +65,10 @@
 
 .about.active{
     display: block;
+}
+
+@media screen and (max-width: 800px){
+    .about .cover{
+        width: calc(100% - 100px);
+    }
 }

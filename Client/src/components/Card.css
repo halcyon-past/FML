@@ -51,7 +51,9 @@
 
 @media screen and (max-width: 800px){
     .card{
-       flex:auto;
+       flex:none;
        margin:20px; 
+       height:22em;
+       width:15em;
     }
 }
