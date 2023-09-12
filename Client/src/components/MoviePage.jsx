@@ -45,7 +45,7 @@ function MoviePage(props) {
         <img src={data&&data.backdrop} alt={data&&data.movie_name} />
         <div className="cover">
           <h1>{data&&data.movie_name}</h1>
-          <h2>{data&&data.releasedate}</h2>
+          <h2>Release Date: {data&&data.releasedate}</h2>
           <p>{data&&data.overview}</p>
         </div>
       </div>

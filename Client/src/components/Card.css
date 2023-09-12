@@ -1,8 +1,9 @@
 .card{
     display: flex;
-    height:20em;
-    width: 15em;
-    background-color: aquamarine;
+    height:24em;
+    width: 17em;
+    background-color: #2b2b2bcc;
+    backdrop-filter: blur(2px);
     flex: 0 0 calc(18% - 20px);
     margin: 5px;
     overflow: hidden;
@@ -50,6 +51,7 @@
 
 @media screen and (max-width: 800px){
     .card{
-       flex:auto; 
+       flex:auto;
+       margin:20px; 
     }
 }

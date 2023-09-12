@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Bubblegum Sans', cursive,Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -26,7 +28,9 @@ body{
   padding: 0;
   height:100vh;
   width:100%;
-  background-color: var(--background);
+  background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url("../src/assets/MarvelWallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 body::-webkit-scrollbar {
@@ -39,4 +43,12 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: var(--primary);
+}
+
+@media screen and (max-width: 800px){
+  body{
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)),url("../src/assets/MarvelFantasy.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
 }

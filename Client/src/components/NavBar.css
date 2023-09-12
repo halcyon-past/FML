@@ -1,5 +1,4 @@
 .nav{
-    background-color: var(--background);
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -7,7 +6,7 @@
     padding: 0 50px;
     font-size: 1.2rem;
     width: calc(100% - 100px);
-    background-image: linear-gradient(to bottom, var(--secondary), var(--background));
+    background-image: linear-gradient(to bottom, var(--secondary), transparent);
 }
 
 .nav .logo{

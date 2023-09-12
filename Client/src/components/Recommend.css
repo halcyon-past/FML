@@ -6,6 +6,7 @@
     align-items: center;
     padding-bottom: 20px;
     text-align: center;
+    overflow-y:scroll;
 }
 
 .container .movies{
@@ -13,6 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+    height:500%;
 }
 
 .container .movies h1{
@@ -24,4 +26,16 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.container::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+.container::-webkit-scrollbar-track {
+    background:none;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: var(--primary);
 }
