@@ -4,7 +4,7 @@ function Landing() {
   return (
     <div className="landing">
         <h1>FML</h1>
-        <h2>Find Movies you Love...</h2>
+        <h2>Find Movies You Love...</h2>
     </div>
   )
 }
