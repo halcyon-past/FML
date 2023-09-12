@@ -24,6 +24,12 @@
     filter: drop-shadow(0 0 5px var(--secondary));
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer a:hover{
+    font-size: 1.3rem;
+    filter: drop-shadow(0 0 2px var(--accent));
 }
 
 .footer svg{
