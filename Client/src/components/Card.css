@@ -3,6 +3,7 @@
     height:20em;
     width: 15em;
     background-color: aquamarine;
+    flex: 0 0 calc(18% - 20px);
     margin: 5px;
     overflow: hidden;
     position: relative;
@@ -45,4 +46,10 @@
     display: flex;
     transition: display 0.5s ease-in-out;
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+    .card{
+       flex:auto; 
+    }
 }
