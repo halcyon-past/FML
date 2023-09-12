@@ -1,0 +1,67 @@
+.about{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:80%;
+    width:80%;
+    background-color: #2b2b2bcc;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    z-index: 3;
+    display:none;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px var(--mid);
+}
+
+.about .fit{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+.about .fit svg{
+    position: absolute;
+    right: 20px;
+    top:20px;
+    height: 30px;
+    width: 30px;
+}
+
+.about .fit svg:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.about img{
+    width:100%;
+    height:100%;
+}
+
+.about .cover{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: calc(80% - 100px);
+    padding:0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #000000dd 40%, transparent);
+}
+
+.about p{
+    text-align: left;
+    overflow: scroll;
+}
+
+.about p::-webkit-scrollbar{
+    display: none;
+}
+
+.about.active{
+    display: block;
+}

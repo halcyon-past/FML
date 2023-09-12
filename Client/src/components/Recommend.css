@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width:100%;
+    height: calc(100vh - 60px);
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container .movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.container .movies h1{
+    text-align: center;
+}
+
+.container span{
+    background: -webkit-linear-gradient(35deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
