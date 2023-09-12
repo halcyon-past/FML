@@ -16,7 +16,7 @@ function Recommend(props) {
     };
 
     useEffect(() => {
-      axios.get(`http://127.0.0.1:5000/search/${selectedMovie}`).then((response) => {
+      axios.get(`https://fml-lip2.onrender.com/search/${selectedMovie}`).then((response) => {
         setData(response.data);
         console.log(response.data);
       }).catch((error) => {

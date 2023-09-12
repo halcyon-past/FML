@@ -24,7 +24,7 @@ function NavBar({ onMovieClick }){
     };
 
     useEffect(() => {
-        axios.get(`http://127.0.0.1:5000/top/${inputText}`).then((response) => {
+        axios.get(`https://fml-lip2.onrender.com/top/${inputText}`).then((response) => {
         setSuggestions(response.data);
         }).catch((error) => {
             console.log(error);
