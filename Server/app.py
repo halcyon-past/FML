@@ -13,6 +13,14 @@ def server():
 def get_all_movies():
     return all_movies()
 
+@app.route('/ping')
+def ping():
+    try:
+        response = requests.get('https://render-ping-2bn5.onrender.com/')
+        return response.text, response.status_code
+    except requests.exceptions.RequestException as e:
+        return f"Error: {e}", 500
+
 @app.route('/top/', methods=['GET'])
 def top_movies():
     return ["Searching For Movies!!"]
