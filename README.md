@@ -15,7 +15,6 @@ Are you tired of endlessly scrolling through movie catalogs to find that perfect
 
 - Server hosted at : ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 - Client hosted at : ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-- <a href ="https://www.google.com" target = "_blank"><img   src = "https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white" width = 100px height = 35px></a>
 
 
 ## Tech Stack <img src = "https://media.tenor.com/3gv9yUsBN9YAAAAi/robot-cyborg.gif" width = 35px>
