@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from recommend import recommend_movie,all_movies,top_matches
+import requests
 
 app = Flask(__name__)
 CORS(app)
